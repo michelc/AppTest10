@@ -1,7 +1,7 @@
 {
-  "name": "AppTest",
+  "name": "AppTest10",
   "version": "1.0.0",
-  "description": "Application CRUD avec Express et SQlite en 10 étapes",
+  "description": "Test déploiement sur Unubo",
   "main": "index.js",
   "scripts": {
     "start": "node index",
