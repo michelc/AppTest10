@@ -11,6 +11,8 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: false }));
 
+/*
+
 // Connexion à la base de donnée SQlite
 const db_name = path.join(__dirname, "data", "apptest.db");
 const db = new sqlite3.Database(db_name, err => {
@@ -45,9 +47,11 @@ db.run(sql_create, err => {
   });
 });
 
+*/
+
 // Démarrage du serveur
 app.listen(3000, () => {
-    console.log("Serveur démarré (http://localhost:3000/) !");
+  console.log("Serveur démarré (http://localhost:3000/) !");
 });
 
 // GET /
